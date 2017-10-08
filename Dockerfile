@@ -17,8 +17,4 @@ RUN apt-get update \
 
 RUN usermod -u 1000 www-data
 
-WORKDIR /var/www/bitrix
-
-CMD ["php-fpm"]
-
 EXPOSE 9000
